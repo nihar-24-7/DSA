@@ -21,6 +21,7 @@ while low<=high:
         high = mid -1
     elif key>=list[mid]:
         low = mid+1
-    else:
-        print("Not Found")
+else:
+    print("Not Found")
+    
     
