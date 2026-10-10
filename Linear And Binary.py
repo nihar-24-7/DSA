@@ -7,7 +7,7 @@ if j == 1:
     n = int(input("Enter number of elements: "))
 
     for i in range(n):
-        e = int(input("Enter an element: "))
+        e = int(input(f"Enter an element {i+1}: "))
         l.append(e)
 
     l.sort()
